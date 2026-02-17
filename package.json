@@ -1,0 +1,25 @@
+{
+  "name": "playwright-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation project for rahulshettyacademy.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:registration": "playwright test tests/registration.spec.js",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:product": "playwright test tests/product-listing.spec.js",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}
